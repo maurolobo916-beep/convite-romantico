@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Convite para Ana Clara ❤️</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#ff758c,#ff7eb3);
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    width:90%;
+    max-width:600px;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+h1{
+    text-align:center;
+    color:#ff4d6d;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input, textarea, select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:#ff4d6d;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+
+<h1>❤️ Ana Clara ❤️</h1>
+
+<p>Tenho algumas perguntas para você 😊</p>
+
+<form action="https://formspree.io/f/xeewpgwo" method="POST">
+
+<label>Seu nome</label>
+<input type="text" name="Nome" required>
+
+<label>Você quer sair comigo?</label>
+<select name="Quer sair comigo?" required>
+<option value="">Escolha</option>
+<option>Sim ❤️</option>
+<option>Claro 😊</option>
+<option>Com certeza 😍</option>
+</select>
+
+<label>Onde você gostaria de ir?</label>
+<input type="text" name="Lugar">
+
+<label>O que você gosta de comer?</label>
+<input type="text" name="Comida favorita">
+
+<label>O que você gosta de fazer?</label>
+<input type="text" name="Hobbies">
+
+<label>Deixe uma mensagem para mim ❤️</label>
+<textarea name="Mensagem" rows="5"></textarea>
+
+<button type="submit">
+Enviar 💌
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
